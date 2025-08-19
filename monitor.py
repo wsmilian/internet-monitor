@@ -4,7 +4,7 @@ import datetime
 
 CHECK_URL = "https://www.google.com"
 LOG_FILE = "internet_log.txt"
-CHECK_INTERVAL = 60  # seconds
+CHECK_INTERVAL = 10  # seconds
 
 def log_event(status, msg):
     timestamp = datetime.datetime.now().isoformat()
