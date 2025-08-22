@@ -1,12 +1,11 @@
 # Internet Monitor
 
-A Python tool to monitor and log internet connectivity and speed.
+A Python tool to monitor and log internet connectivity.
 
 ## Features
 
 - Periodically checks internet connectivity.
 - Logs downtime and uptime events.
-- Measures and records connection speed.
 - Easy to extend for notifications or integrations.
 
 ## Quick Start
