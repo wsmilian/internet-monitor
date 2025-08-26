@@ -1,11 +1,18 @@
-# Internet Monitor
+# Internet Connectivity and Speed monitor
 
-A Python tool to monitor and log internet speed using Speedtest.
+ The main purpose of this repository is to monitor connectivity and internet speed using Speedtest.
 
 ## Features
 
-- Check and log internet speed.
-- Easy to extend for notifications or integrations.
+- Monitor internet link connectivity (monitor.py)
+ <img width="379" height="180" alt="image" src="https://github.com/user-attachments/assets/5222b578-4e77-49ce-ba0e-17549a3123d5" />
+
+ 
+- Check and log internet speed. (testspeed.py)
+<img width="637" height="263" alt="image" src="https://github.com/user-attachments/assets/be95b1aa-dda4-489f-99c1-93f80a2a2f5f" />
+
+
+
 
 ## Quick Start
 
@@ -20,9 +27,13 @@ A Python tool to monitor and log internet speed using Speedtest.
     pip install -r requirements.txt
     ```
 
-3. Run the monitor:
+3. To run the connectivity monitor:
     ```bash
-    python testspeed.py
+    python monitor.py
+    ```
+4. To run the speed test:
+   ```bash
+   python testspeed.py
     ```
 
 ## License
