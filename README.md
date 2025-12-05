@@ -6,7 +6,7 @@ A Python tool to monitor and log internet connectivity.
 
 - Periodically checks internet connectivity.
 - Logs downtime and uptime events.
-- Easy to extend for notifications or integrations.
+- Easy to implement for notifications or integrations.
 
 ## Quick Start
 
